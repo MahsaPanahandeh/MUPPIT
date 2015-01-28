@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ASCII"?>
+<MappingModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns="mappings" xmi:id="_Vw0mYNauEeOo99SccOhxgQ" name="class2Relational">
+  <packages xmi:id="_6mZMsNa-EeOo99SccOhxgQ">
+    <mappings xmi:id="_7fPgQNa-EeOo99SccOhxgQ" name="Class">
+      <children xmi:id="_Rmp9cC1dEeSK0qcaqt7LRA" name="extra">
+        <ends xmi:id="_VgfgUC1eEeSK0qcaqt7LRA" name="from class" min="1" max="1" navigable="false" end="_Xn41sNauEeOo99SccOhxgQ"/>
+        <ends xmi:id="_VgfgUS1eEeSK0qcaqt7LRA" name="to table" min="1" max="1" navigable="true" end="_NpM8ANbPEeOoWePbQfYRfA"/>
+        <ends xmi:id="_VgfgUi1eEeSK0qcaqt7LRA" name="pkey" min="1" max="1" navigable="true" end="_TCCo8NbPEeOoWePbQfYRfA"/>
+      </children>
+      <ends xmi:id="_GU8EMNbPEeOoWePbQfYRfA" name="from class" min="1" max="1" navigable="false" end="_Xn41sNauEeOo99SccOhxgQ"/>
+      <ends xmi:id="_G5dtkNbPEeOoWePbQfYRfA" name="to table" min="1" max="1" navigable="true" end="_NpM8ANbPEeOoWePbQfYRfA"/>
+      <ends xmi:id="_esCx8NbPEeOoWePbQfYRfA" name="pkey" min="1" max="1" navigable="true" end="_TCCo8NbPEeOoWePbQfYRfA"/>
+    </mappings>
+    <mappings xmi:id="_1NAykNbREeOoWePbQfYRfA" name="Single-Valued-Att">
+      <ends xmi:id="_lg3NUNbSEeOoWePbQfYRfA" name="from attribute" min="1" max="1" navigable="false" end="_f6DV0NbSEeOoWePbQfYRfA"/>
+      <ends xmi:id="_mHtK4NbSEeOoWePbQfYRfA" name="to column" min="1" max="1" navigable="true" end="_TCCo8NbPEeOoWePbQfYRfA"/>
+    </mappings>
+  </packages>
+  <modelEnds xmi:id="_Xn41sNauEeOo99SccOhxgQ" name="class" navigable="false"/>
+  <modelEnds xmi:id="_NpM8ANbPEeOoWePbQfYRfA" name="table" navigable="true"/>
+  <modelEnds xmi:id="_TCCo8NbPEeOoWePbQfYRfA" name="column" navigable="true"/>
+  <modelEnds xmi:id="_f6DV0NbSEeOoWePbQfYRfA" name="attribute" navigable="false"/>
+</MappingModel>

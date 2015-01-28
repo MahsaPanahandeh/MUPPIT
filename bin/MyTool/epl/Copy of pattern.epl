@@ -1,0 +1,77 @@
+--filter pattern
+pre
+{
+--var str= System.User.prompt("Ente the name of source meta-model (Case sensitive):");
+var cont:new Integer;
+cont:=0;
+ var setInclude:Set;
+ var setExclude:Set;
+
+  var sources:=Class.allInstances();
+--sources.println();
+
+}
+pattern Filter
+modelroot: mmw_metagem!ModelRoot
+ --flatt nakardan chi ro az dast mide?
+
+{
+
+--match : (modelroot.relations.source.name).asSet().excludes(sources.at(cont).type().name )
+ match : ( cont<sources.size() )
+  
+onmatch{
+ RecognizeElement(modelroot);
+cont.addCounter();
+
+}
+
+}--end of guard
+
+ post
+ {  
+
+ 
+if( UserInput.confirm("These elements aren't used in transformaton:" + setExclude.asString()+ "\n Do you want apply Filter pattern?")==true)
+
+{
+delete(Class2.allInstances());
+--var emfTool : new Native("org.eclipse.epsilon.emc.emf.tools.EmfTool");
+
+for(element in setInclude)
+{
+ Class2.createInstance(element.type().name);
+ --var t := emfTool.getECoreUtil().copy(element);
+ 
+ 
+}--end of for
+
+}--end of if
+ 
+ }--end of post
+ 
+ operation Integer addCounter()
+ {
+  if(cont<sources.size()-1)
+    cont:= self+1;
+   else
+   cont:=sources.size();
+
+ }
+ 
+ operation RecognizeElement(modelroot : mmw_metagem!ModelRoot)
+ {
+  
+  if((modelroot.relations.source.name).asSet().includes(sources.at(cont).type().name))
+  
+  {  
+  	--(sources.at(cont).name).println();
+	setInclude.add(sources.at(cont));
+  }
+  else
+  {
+ 	 setExclude.add(sources.at(cont));
+
+  }
+ }
+ 

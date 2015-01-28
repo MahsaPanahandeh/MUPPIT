@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svnroot/modeling/org.eclipse.epsilon/!svn/ver/2635/tags/1.2/examples/org.eclipse.epsilon.examples.standalone/src/org/eclipse/epsilon/examples/standalone/models
+END
+example.uml
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svnroot/modeling/org.eclipse.epsilon/!svn/ver/2635/tags/1.2/examples/org.eclipse.epsilon.examples.standalone/src/org/eclipse/epsilon/examples/standalone/models/example.uml
+END
+Tree.ecore
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svnroot/modeling/org.eclipse.epsilon/!svn/ver/2635/tags/1.2/examples/org.eclipse.epsilon.examples.standalone/src/org/eclipse/epsilon/examples/standalone/models/Tree.ecore
+END
+Tree.xmi
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svnroot/modeling/org.eclipse.epsilon/!svn/ver/2635/tags/1.2/examples/org.eclipse.epsilon.examples.standalone/src/org/eclipse/epsilon/examples/standalone/models/Tree.xmi
+END
+Graph.ecore
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svnroot/modeling/org.eclipse.epsilon/!svn/ver/2635/tags/1.2/examples/org.eclipse.epsilon.examples.standalone/src/org/eclipse/epsilon/examples/standalone/models/Graph.ecore
+END
+Tree2.xmi
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svnroot/modeling/org.eclipse.epsilon/!svn/ver/2635/tags/1.2/examples/org.eclipse.epsilon.examples.standalone/src/org/eclipse/epsilon/examples/standalone/models/Tree2.xmi
+END
+Copy.xmi
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svnroot/modeling/org.eclipse.epsilon/!svn/ver/2635/tags/1.2/examples/org.eclipse.epsilon.examples.standalone/src/org/eclipse/epsilon/examples/standalone/models/Copy.xmi
+END
+Tree.emf
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svnroot/modeling/org.eclipse.epsilon/!svn/ver/2635/tags/1.2/examples/org.eclipse.epsilon.examples.standalone/src/org/eclipse/epsilon/examples/standalone/models/Tree.emf
+END
+Graph.emf
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svnroot/modeling/org.eclipse.epsilon/!svn/ver/2635/tags/1.2/examples/org.eclipse.epsilon.examples.standalone/src/org/eclipse/epsilon/examples/standalone/models/Graph.emf
+END

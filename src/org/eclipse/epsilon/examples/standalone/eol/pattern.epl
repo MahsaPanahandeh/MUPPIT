@@ -1,0 +1,41 @@
+--phase construction Detection:
+pre{
+var temp:=false;
+}
+pattern phaseconstuction
+mapping: Mapping
+{
+match : 
+mapping.ends.one(mapend|mapend.navigable=true)
+
+onmatch{
+
+}
+nomatch {temp:=true;}
+
+ }--end of pattern
+  post
+  {
+  if(temp==true)
+  UserInput.confirm("Phase construction pattern isn't Detected!");
+  else
+  UserInput.confirm("Phase construction pattern isn't Detected!");
+  }--end of post
+ 
+ 
+ -----------------------------------------------------------
+ --phase construction proposition:
+--pattern phaseconstuction
+--mapping: Mapping
+--{
+--match : 
+--mapping.ends.select(mapend|mapend.navigable=true).size()>1 --proposition phase(necessity)
+--onmatch{
+--UserInput.confirm("Phase construction pattern is proposed for the mapping: '"+mapping.name+"'.\nThis mapping accesses to more tha one level of target meta-model.\n\n Do you want to apply this pattern?");--proposition phase(necessity)
+
+--}
+
+--nomatch 
+--{ }
+
+ --}--end of guard

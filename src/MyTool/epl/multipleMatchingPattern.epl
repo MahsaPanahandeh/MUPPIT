@@ -1,0 +1,27 @@
+--MultipleMatchingPattern
+
+--for transML::::
+--pattern MultipleMatchingPattern
+--mapping: Mapping
+--{
+--match : 
+--for transML:
+--mapping.ends.one(mapend|mapend.navigable=false)
+--onmatch{
+--}
+--nomatch : UserInput.confirm("Multiple Matching Pattern is proposed for the mapping: '"+mapping.name+"'.\nThis mapping use more tha one level of Source meta-model")
+-- }--end of match
+
+
+--for MeTAGeM::::
+pattern MultipleMatchingPattern
+relation:Relations
+{
+--check the main relations and many2one and many2many of them:
+match :  (true)
+
+onmatch{
+
+}
+--nomatch 
+ }--end of match

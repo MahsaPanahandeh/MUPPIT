@@ -1,0 +1,77 @@
+10
+
+dir
+2678
+http://dev.eclipse.org/svnroot/modeling/org.eclipse.epsilon/tags/1.2/examples/org.eclipse.epsilon.examples.standalone/src/org/eclipse/epsilon/examples/standalone
+http://dev.eclipse.org/svnroot/modeling/org.eclipse.epsilon
+
+
+
+2014-04-10T15:20:15.168343Z
+2584
+mbezemer
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b1e7822e-7b56-0410-88b3-db6ede196368
+
+EpsilonStandaloneExample.java
+file
+
+
+
+
+2014-11-08T17:12:37.406000Z
+25e72f1669f8ce272b1952845ebf0a01
+2013-08-12T15:50:36.177708Z
+2359
+agarciad
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4027
+
+egl
+dir
+
+eol
+dir
+
+etl
+dir
+
+evl
+dir
+
+models
+dir
+

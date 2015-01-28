@@ -1,0 +1,17 @@
+--phase construction proposition:
+pattern phaseconstuction
+mapping: Mapping
+{
+match : 
+mapping.ends.select(mapend|mapend.navigable=true).size()>1 --proposition phase(necessity)
+onmatch{
+--UserInput.confirm("Phase construction pattern is necessary for the mapping: '"+mapping.name);--proposition phase(necessity)
+ ("Phased construction pattern is necessary for the mapping: '"+mapping.name).println();
+  ("The Phased Construction pattern is necessary for this design model").println();
+ 
+}
+
+nomatch 
+{ }
+
+}--end of guard

@@ -1,0 +1,30 @@
+--phase construction Detection:
+pre{
+var temp:=false;
+}
+pattern phaseconstuction
+mapping: Mapping
+{
+match : 
+mapping.ends.one(mapend|mapend.navigable=true)
+
+onmatch{
+
+}
+nomatch {temp:=true;}
+
+ }--end of pattern
+  post
+  {
+  if(temp==true)
+ {   
+ -- UserInput.confirm("Phase construction pattern isn't Detected!");
+ "Phased construction pattern isn't Detected!".println();
+ ("This design model needs to PhasedConstruction Pattern. \n Do you want to apply this pattern?").println();
+ }
+  else
+ -- UserInput.confirm("Phase construction pattern isn't Detected!");
+  "Phased construction pattern is Detected!".println();
+  }--end of post
+ 
+ 
